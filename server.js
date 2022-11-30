@@ -9,7 +9,7 @@ require('./connection')
 const server = http.createServer(app);
 const {Server} = require('socket.io');
 const io = new Server(server, {
-  cors: 'https://urban-bwvy.onrender.com',
+  cors: 'https://front-vercel-wheat.vercel.app',
   methods: ['GET', 'POST', 'PATCH', "DELETE"]
 })
 
