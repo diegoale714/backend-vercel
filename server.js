@@ -8,7 +8,7 @@ require('./connection')
 const server = http.createServer(app)
 const { Server } = require('socket.io')
 const io = new Server(server, {
-  cors: 'https://front-vercel-two.vercel.app',
+  cors: 'https://front-vercel-two.vercel.app/',
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
 })
 
